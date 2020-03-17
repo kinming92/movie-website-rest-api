@@ -10,7 +10,7 @@ This project serves as the backend to handle HTTP request and response for the m
 
 
 | Url | Endpoint Description | HTTP method | Expected Body Request | Expected Response |
-|-----|----------------------|-------------|
+|-----|----------------------|-------------|-----------------------|-------------------|
 | /movies/movieList?access_token= | retrieve all the movieList | GET | none | A JSON object contains all movies information |
 | /movies?access_token= | create a new movie | POST | x-www-form-urlencoded | A JSON object contains the new movie information |
 | /movies/__{id}__?access_token= | retrieve a single movie by movieId | GET | none | A JSON object contains the information about movie |
@@ -24,7 +24,7 @@ This project serves as the backend to handle HTTP request and response for the m
 | {id} | movieId |
 
 | Query parameter | Description | Type |
-|-----------------|-------------|
+|-----------------|-------------|------|
 | access_token | for user authentication | String |
 
 ## Request and Response Usage Example
@@ -107,6 +107,7 @@ GET http://localhost:3000/movies/movieId?access_token=sampleToken
 ```
 DELETE http://localhost:3000/movies/movieId?access_token=sampleToken
 ```
+### Respond
 ```
 {"message":"movie Deleted"}
 ```
