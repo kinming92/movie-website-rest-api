@@ -1,0 +1,32 @@
+{
+  "name": "nodejs_movie_restapi",
+  "version": "1.0.0",
+  "description": "This project serves as the backend to handle HTTP request and response for the movie CRUD webiste.",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinming92/movie-website-rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinming92/movie-website-rest-api/issues"
+  },
+  "homepage": "https://github.com/kinming92/movie-website-rest-api#readme",
+  "engine": {
+    "node": "12.14.1"
+  }
+}
