@@ -1,5 +1,5 @@
 # Summary 
-This project serves as the backend to handle HTTP request and response for the movie CRUD webiste.
+This project serves as the backend to handle HTTP request and response for the movie collection webiste.
 
 # Movie Database Endpoint Documentation
 | Url | Endpoint Description | HTTP method | Expected Body Request | Expected Response |
